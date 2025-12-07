@@ -1,0 +1,14 @@
+# Archivo: .streamlit/config.toml
+[theme]
+primaryColor = "#0f172a"       # Azul media noche (Muy serio)
+backgroundColor = "#f5efda"    # Blanco puro
+secondaryBackgroundColor = "#f8fafc" # Gris casi blanco para paneles
+textColor = "#800404"          # Gris pizarra (Mejor lectura que negro)
+font = "serif"                 # Cambio clave: Fuente con serifa (Académico)
+
+[server]
+headless = true
+enableCORS = false
+
+[client]
+toolbarMode = "minimal"
