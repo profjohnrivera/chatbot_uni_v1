@@ -137,7 +137,7 @@ with col_logo:
     else:
         st.markdown("<div style='font-size:3rem; text-align:center;'>🏛️</div>", unsafe_allow_html=True)
 with col_title:
-    st.markdown("# CHATBOY RAG - GRUPO 03")
+    st.markdown("# CHATBOT RAG - GRUPO 03")
     # ---st.markdown("**PhD Candidate:** [Tu Nombre] | **Advisor:** [Nombre Asesor]")---
     st.markdown("---")
 
@@ -311,3 +311,4 @@ if prompt_final:
 
     except Exception as e:
         st.error(f"Error en la respuesta: {e}")
+
